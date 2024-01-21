@@ -1,0 +1,25 @@
+.weather-list {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0;
+    gap: 1.5rem;
+    width: 100%;
+    list-style: none;
+    max-height: 100%;
+    overflow-y: auto;
+    margin-inline-start: 1rem;
+    margin-inline-end: 1rem;
+    padding-inline-start: 2rem;
+    padding-inline-end: 2rem;
+}
+
+@media only screen and (min-width: 600px) {
+    .weather-list {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        padding: 3rem;
+        overflow-x: auto;
+        overflow-y: auto;
+    }
+  }
